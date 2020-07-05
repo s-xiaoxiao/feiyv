@@ -1,0 +1,14 @@
+{
+  "name": "feiyv",
+  "version": "0.0.1",
+  "description": "feiyv website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaoxiao",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
