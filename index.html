@@ -1,21 +1,74 @@
 <!doctype html>
 <html lang="zh-Hans">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>fei yv</title>
+  <title>飞宇地脚</title>
   <style>
-    *{
-      margin: 0;padding: 0;box-sizing: border-box;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    img{
-      height: 100vh;
+    .body {
+      height: 100%;
+    }
+
+    button {
+      border: none;
+      background: none;
+    }
+
+    button:focus {
+      color: none;
+    }
+
+    button:target {
+      border: none;
+    }
+
+    body {
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 120px;
+      background: #666;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    img {
+      width: 200px;
+      height: 400px;
     }
   </style>
 </head>
 <body>
-  <img src="picture/feixiang.jpg" alt="feixiang">
+  <div id="nav" class="nav">
+    <a href="./1.html"><img src="picture/feixiang.jpg"></a>
+    <a href="./2.html"><img src="picture/feixiang.jpg"></a>
+    <a href="./3.html"><img src="picture/feixiang.jpg"></a>
+    <a href="./4.html"><img src="picture/feixiang.jpg"></a>
+  </div>
 </body>
+<script>
+  // let len = document.querySelector('#nav');
+  // let ob = {
+  //   '1':'1.html',
+  //   '2':'2.html',
+  //   '3':'3.html',
+  //   '4':'4.html'
+  // }
+  // console.log(len.children.length)
+  // for(let i =1;i<=len.children.length;i++){
+  //   len.children[i-1].onclick = ()=>{
+  //     window.location.open = '1.html'
+  //   }
+  // }
+  // console.log(len)
+</script>
 </html>
